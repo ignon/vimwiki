@@ -704,11 +704,11 @@ function! s:get_links(wikifile, idx) abort
   endif
 
   let syntax = vimwiki#vars#get_wikilocal('syntax', a:idx)
-  if syntax ==# 'markdown'
-    let rx_link = vimwiki#vars#get_syntaxlocal('rxWeblink1MatchUrl', syntax)
-  else
+  "if syntax ==# 'markdown'
+  "  let rx_link = vimwiki#vars#get_syntaxlocal('rxWeblink1MatchUrl', syntax)
+  "else
     let rx_link = vimwiki#vars#get_syntaxlocal('wikilink', syntax)
-  endif
+  "endif
 
   let links = []
   let lnum = 0
