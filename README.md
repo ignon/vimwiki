@@ -24,11 +24,11 @@
 
 ## About the fork
 
-This is reeeally lazy and hacky fork of Vimwiki, which changes the default markdown link format to `[[link]]` and `[[link|alternative text]]`. No header level support (`[[link#header]]`).
+This is reeeally lazy and hacky fork of Vimwiki, which changes the default markdown link format to `[[link]]` and `[[link|alternative text]]`. No header level support (`[[link#header]]`). Normal `[text](link)` markdown-links will no longer be indexed.
 
 But hey it works!! Just putting it here so that if someone with no coding knowledge (or too lazy to do it on their own) needs it (:
 
-The fork will not be updated often.
+The fork will not be updated often. 
 
 
 ## Introduction
